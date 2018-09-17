@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>SWATI Workflow-Version 1.4</Creator>
+        <Created>2018-07-11T10:08:40Z</Created>
+        <LastChange>2018-07-11T10:08:40Z</LastChange>
+        <Comments>PageXml created according to 2017 schema</Comments>
+    </Metadata>
+    <Page custom="MeasurementUnit:Pixel" imageFilename="csg562-050.jpg" imageHeight="4992" imageWidth="3328">
+        <Border>
+            <Coords points="3250,460 3250,4410 175,4410 175,460"/>
+        </Border>
+        <UserDefined>
+            <UserAttribute description="MeasurementUnit:cm" name="pageModelWidth" type="xsd:float" value="26.034"/>
+            <UserAttribute description="MeasurementUnit:cm" name="pageModelHeight" type="xsd:float" value="33.424"/>
+            <UserAttribute description="MeasurementUnit:DPI" name="xResolution" type="xsd:float" value="300.0"/>
+            <UserAttribute description="MeasurementUnit:DPI" name="yResolution" type="xsd:float" value="300.0"/>
+            <UserAttribute description="MeasurementUnit:cm" name="DigitizedManuscriptPageHeight" type="xsd:string" value="42.2656"/>
+            <UserAttribute name="TextRightMargin_RATIO" type="xsd:string" value="5.280335"/>
+            <UserAttribute description="MeasurementUnit:cm" name="DigitizedManuscriptPageWidth" type="xsd:string" value="28.177067"/>
+            <UserAttribute name="NumberRedRegion" type="xsd:string" value="1"/>
+            <UserAttribute name="NumberPageRegion" type="xsd:string" value="1"/>
+            <UserAttribute name="ColorCalibration" type="xsd:string" value="false"/>
+            <UserAttribute name="TextLeftMargin_RATIO" type="xsd:string" value="2.3101463"/>
+            <UserAttribute name="NumberTextRegion" type="xsd:string" value="1"/>
+            <UserAttribute description="MeasurementUnit:deg" name="SaturationFGColorHue_STD_DEV" type="xsd:string" value="5.470536516669834"/>
+            <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorSaturation_MEDIAN" type="xsd:string" value="16.862745098039216"/>
+            <UserAttribute description="MeasurementUnit:deg" name="SaturationBGColorHue_MEDIAN" type="xsd:string" value="52.235294117647065"/>
+            <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorSaturation_STD_DEV" type="xsd:string" value="7.748923414718847"/>
+            <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorBrightness_MEDIAN" type="xsd:string" value="70.98039215686275"/>
+            <UserAttribute description="MeasurementUnit:deg" name="BrightnessFGColorHue_MEDIAN" type="xsd:string" value="38.11764705882353"/>
+            <UserAttribute description="MeasurementUnit:deg" name="BrightnessBGColorHue_MEAN" type="xsd:string" value="53.5109083088466"/>
+            <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorSaturation_STD_DEV" type="xsd:string" value="5.073069560666093"/>
+            <UserAttribute description="MeasurementUnit:pct" name="RelativeWidth" type="xsd:string" value="92.397835"/>
+            <UserAttribute description="MeasurementUnit:deg" name="BrightnessFGColorHue_MEAN" type="xsd:string" value="39.187008461804325"/>
+            <UserAttribute description="MeasurementUnit:deg" name="BrightnessBGColorHue_MEDIAN" type="xsd:string" value="50.8235294117647"/>
+            <UserAttribute name="NumberVerticalLines" type="xsd:string" value="1"/>
+            <UserAttribute description="MeasurementUnit:deg" name="SaturationFGColorHue_SKEWNESS" type="xsd:string" value="-0.9075228553765425"/>
+            <UserAttribute description="MeasurementUnit:pct" name="RelativeVPOS" type="xsd:string" value="9.214744"/>
+            <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorBrightness_MEAN" type="xsd:string" value="78.05911859860444"/>
+            <UserAttribute name="NumberHorizontalLines" type="xsd:string" value="0"/>
+            <UserAttribute description="MeasurementUnit:deg" name="BrightnessBGColorHue_SKEWNESS" type="xsd:string" value="0.8713832207637767"/>
+            <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorBrightness_MEAN" type="xsd:string" value="45.82227311165083"/>
+            <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorSaturation_MEAN" type="xsd:string" value="7.257105224135518"/>
+            <UserAttribute description="MeasurementUnit:deg" name="SaturationBGColorHue_MEAN" type="xsd:string" value="57.18780628812562"/>
+            <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorBrightness_SKEWNESS" type="xsd:string" value="-0.7855231058345744"/>
+            <UserAttribute description="MeasurementUnit:deg" name="SaturationFGColorHue_MEDIAN" type="xsd:string" value="43.76470588235294"/>
+            <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorSaturation_SKEWNESS" type="xsd:string" value="0.8305773851626566"/>
+            <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorBrightness_STD_DEV" type="xsd:string" value="11.279245886589191"/>
+            <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorBrightness_SKEWNESS" type="xsd:string" value="-0.307435688780473"/>
+            <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorSaturation_SKEWNESS" type="xsd:string" value="1.5112516897709303"/>
+            <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorBrightness_STD_DEV" type="xsd:string" value="4.504418859895625"/>
+            <UserAttribute description="MeasurementUnit:deg" name="BrightnessBGColorHue_STD_DEV" type="xsd:string" value="10.410768279234128"/>
+            <UserAttribute description="MeasurementUnit:deg" name="SaturationFGColorHue_MEAN" type="xsd:string" value="42.856688379252844"/>
+            <UserAttribute description="MeasurementUnit:sq.cm" name="Area" type="xsd:string" value="870.69714"/>
+            <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorSaturation_MEDIAN" type="xsd:string" value="6.666666666666667"/>
+            <UserAttribute description="MeasurementUnit:cm" name="VPOS" type="xsd:string" value="3.8946664"/>
+            <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorBrightness_MEDIAN" type="xsd:string" value="79.2156862745098"/>
+            <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorSaturation_MEAN" type="xsd:string" value="16.5307341578098"/>
+            <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorBrightness_MEDIAN" type="xsd:string" value="46.666666666666664"/>
+            <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorSaturation_MEDIAN" type="xsd:string" value="14.901960784313726"/>
+            <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorBrightness_MEAN" type="xsd:string" value="76.38416384552649"/>
+            <UserAttribute description="MeasurementUnit:cm" name="HPOS" type="xsd:string" value="1.4816666"/>
+            <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorSaturation_STD_DEV" type="xsd:string" value="4.755975849060639"/>
+            <UserAttribute description="MeasurementUnit:deg" name="SaturationBGColorHue_SKEWNESS" type="xsd:string" value="0.681751410531637"/>
+            <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorSaturation_STD_DEV" type="xsd:string" value="2.0416570684190924"/>
+            <UserAttribute description="MeasurementUnit:pct" name="RelativeHPOS" type="xsd:string" value="5.258413"/>
+            <UserAttribute description="MeasurementUnit:pct" name="RelativeHeight" type="xsd:string" value="79.1266"/>
+            <UserAttribute description="MeasurementUnit:cm" name="Height" type="xsd:string" value="33.443333"/>
+            <UserAttribute description="MeasurementUnit:cm" name="Width" type="xsd:string" value="26.035"/>
+            <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorSaturation_MEAN" type="xsd:string" value="9.660390974115757"/>
+            <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorBrightness_STD_DEV" type="xsd:string" value="9.804782956280219"/>
+            <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorSaturation_SKEWNESS" type="xsd:string" value="0.1890167849733989"/>
+            <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorBrightness_MEAN" type="xsd:string" value="66.67353044117252"/>
+            <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorBrightness_SKEWNESS" type="xsd:string" value="-0.11823497686556311"/>
+            <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorSaturation_MEAN" type="xsd:string" value="18.560325525149906"/>
+            <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorSaturation_SKEWNESS" type="xsd:string" value="0.6037717683163466"/>
+            <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorBrightness_MEDIAN" type="xsd:string" value="77.64705882352942"/>
+            <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorSaturation_MEDIAN" type="xsd:string" value="8.235294117647058"/>
+            <UserAttribute description="MeasurementUnit:cm" name="MeanDistanceVerticalLines" type="xsd:string" value="26.03499984741211"/>
+            <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorBrightness_SKEWNESS" type="xsd:string" value="-1.2021843903618445"/>
+            <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorBrightness_STD_DEV" type="xsd:string" value="4.339529454639471"/>
+            <UserAttribute description="MeasurementUnit:deg" name="BrightnessFGColorHue_SKEWNESS" type="xsd:string" value="0.7933490623534024"/>
+            <UserAttribute description="MeasurementUnit:deg" name="SaturationBGColorHue_STD_DEV" type="xsd:string" value="9.675754877808986"/>
+            <UserAttribute description="MeasurementUnit:deg" name="BrightnessFGColorHue_STD_DEV" type="xsd:string" value="7.980730105247339"/>
+        </UserDefined>
+        <TextRegion id="r1">
+            <Coords points="2970,820 2970,3530 815,3530 815,820"/>
+            <UserDefined>
+                <UserAttribute description="MeasurementUnit:deg" name="SaturationFGColorHue_STD_DEV" type="xsd:string" value="7.339554083399721"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorSaturation_MEDIAN" type="xsd:string" value="16.470588235294116"/>
+                <UserAttribute description="MeasurementUnit:deg" name="SaturationBGColorHue_MEDIAN" type="xsd:string" value="52.235294117647065"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorSaturation_STD_DEV" type="xsd:string" value="7.752196372834957"/>
+                <UserAttribute description="MeasurementUnit:cm" name="MeanDistanceHorizontalLines" type="xsd:string" value="0.7602360844612122"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorBrightness_MEDIAN" type="xsd:string" value="56.470588235294116"/>
+                <UserAttribute description="MeasurementUnit:deg" name="BrightnessFGColorHue_MEDIAN" type="xsd:string" value="39.529411764705884"/>
+                <UserAttribute description="MeasurementUnit:deg" name="BrightnessBGColorHue_MEAN" type="xsd:string" value="55.92055083393541"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorSaturation_STD_DEV" type="xsd:string" value="7.742978658123133"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeWidth" type="xsd:string" value="64.7536"/>
+                <UserAttribute description="MeasurementUnit:deg" name="BrightnessFGColorHue_MEAN" type="xsd:string" value="39.47021376308691"/>
+                <UserAttribute description="MeasurementUnit:deg" name="BrightnessBGColorHue_MEDIAN" type="xsd:string" value="50.8235294117647"/>
+                <UserAttribute name="NumberVerticalLines" type="xsd:string" value="1"/>
+                <UserAttribute description="MeasurementUnit:deg" name="SaturationFGColorHue_SKEWNESS" type="xsd:string" value="-0.5201567664178044"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeVPOS" type="xsd:string" value="16.426283"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorBrightness_MEAN" type="xsd:string" value="77.86115701421032"/>
+                <UserAttribute name="NumberHorizontalLines" type="xsd:string" value="24"/>
+                <UserAttribute description="MeasurementUnit:deg" name="BrightnessBGColorHue_SKEWNESS" type="xsd:string" value="0.6383442226345176"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorBrightness_MEAN" type="xsd:string" value="46.552142451918435"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorSaturation_MEAN" type="xsd:string" value="7.07661318963946"/>
+                <UserAttribute description="MeasurementUnit:deg" name="SaturationBGColorHue_MEAN" type="xsd:string" value="56.694489447155945"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorBrightness_SKEWNESS" type="xsd:string" value="-0.08924539161954886"/>
+                <UserAttribute name="RedArea" type="xsd:string" value="true"/>
+                <UserAttribute description="MeasurementUnit:deg" name="SaturationFGColorHue_MEDIAN" type="xsd:string" value="40.94117647058823"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorSaturation_SKEWNESS" type="xsd:string" value="3.016283566152948"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorBrightness_STD_DEV" type="xsd:string" value="16.035365128992492"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorBrightness_SKEWNESS" type="xsd:string" value="-0.6100709038124176"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorSaturation_SKEWNESS" type="xsd:string" value="1.2138985745792112"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorBrightness_STD_DEV" type="xsd:string" value="3.8114486211432923"/>
+                <UserAttribute description="MeasurementUnit:deg" name="BrightnessBGColorHue_STD_DEV" type="xsd:string" value="10.230704369828745"/>
+                <UserAttribute description="MeasurementUnit:deg" name="SaturationFGColorHue_MEAN" type="xsd:string" value="40.41244040692219"/>
+                <UserAttribute description="MeasurementUnit:sq.cm" name="Area" type="xsd:string" value="418.64075"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorSaturation_MEDIAN" type="xsd:string" value="6.666666666666667"/>
+                <UserAttribute description="MeasurementUnit:cm" name="VPOS" type="xsd:string" value="6.9426665"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorBrightness_MEDIAN" type="xsd:string" value="79.2156862745098"/>
+                <UserAttribute name="NumberFeatureStackArray" type="xsd:string" value="30"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorSaturation_MEAN" type="xsd:string" value="17.60277329395915"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorBrightness_MEDIAN" type="xsd:string" value="47.45098039215686"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorSaturation_MEDIAN" type="xsd:string" value="14.50980392156863"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorBrightness_MEAN" type="xsd:string" value="77.95001408401562"/>
+                <UserAttribute description="MeasurementUnit:cm" name="HPOS" type="xsd:string" value="6.9003334"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorSaturation_STD_DEV" type="xsd:string" value="3.3206486874783594"/>
+                <UserAttribute description="MeasurementUnit:deg" name="SaturationBGColorHue_SKEWNESS" type="xsd:string" value="0.7483001158606382"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorSaturation_STD_DEV" type="xsd:string" value="1.9622733317442056"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeHPOS" type="xsd:string" value="24.489182"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeHeight" type="xsd:string" value="54.28686"/>
+                <UserAttribute description="MeasurementUnit:cm" name="Height" type="xsd:string" value="22.944668"/>
+                <UserAttribute description="MeasurementUnit:cm" name="Width" type="xsd:string" value="18.245667"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorSaturation_MEAN" type="xsd:string" value="7.575004829413212"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorBrightness_STD_DEV" type="xsd:string" value="10.132318056705124"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorSaturation_SKEWNESS" type="xsd:string" value="0.18834026930021308"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorBrightness_MEAN" type="xsd:string" value="56.511891504102174"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorBrightness_SKEWNESS" type="xsd:string" value="-0.11861094557919444"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorSaturation_MEAN" type="xsd:string" value="18.227333780308143"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorSaturation_SKEWNESS" type="xsd:string" value="0.6051890475579645"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorBrightness_MEDIAN" type="xsd:string" value="78.82352941176471"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorSaturation_MEDIAN" type="xsd:string" value="6.666666666666667"/>
+                <UserAttribute description="MeasurementUnit:cm" name="MeanDistanceVerticalLines" type="xsd:string" value="18.24566650390625"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorBrightness_SKEWNESS" type="xsd:string" value="-1.1010579073245095"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorBrightness_STD_DEV" type="xsd:string" value="4.850292848185737"/>
+                <UserAttribute description="MeasurementUnit:deg" name="BrightnessFGColorHue_SKEWNESS" type="xsd:string" value="0.7813647771071174"/>
+                <UserAttribute description="MeasurementUnit:deg" name="SaturationBGColorHue_STD_DEV" type="xsd:string" value="9.930874138425278"/>
+                <UserAttribute description="MeasurementUnit:deg" name="BrightnessFGColorHue_STD_DEV" type="xsd:string" value="8.08248304387387"/>
+            </UserDefined>
+            <TextEquiv>
+                <Unicode/>
+            </TextEquiv>
+        </TextRegion>
+        <UnknownRegion custom="RedArea" id="r2">
+            <Coords points="2850,4395 2850,4400 2830,4400 2830,4395"/>
+            <UserDefined>
+                <UserAttribute description="MeasurementUnit:deg" name="SaturationFGColorHue_STD_DEV" type="xsd:string" value="1.6301654659471785"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorSaturation_MEDIAN" type="xsd:string" value="100.0"/>
+                <UserAttribute description="MeasurementUnit:deg" name="SaturationBGColorHue_MEDIAN" type="xsd:string" value="19.764705882352942"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorSaturation_STD_DEV" type="xsd:string" value="0.0"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorBrightness_MEDIAN" type="xsd:string" value="2.7450980392156863"/>
+                <UserAttribute description="MeasurementUnit:deg" name="BrightnessFGColorHue_MEDIAN" type="xsd:string" value="16.941176470588236"/>
+                <UserAttribute description="MeasurementUnit:deg" name="BrightnessBGColorHue_MEAN" type="xsd:string" value="16.941176470588236"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorSaturation_STD_DEV" type="xsd:string" value="6.565944237842802"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeWidth" type="xsd:string" value="0.60096157"/>
+                <UserAttribute description="MeasurementUnit:deg" name="BrightnessFGColorHue_MEAN" type="xsd:string" value="15.529411764705882"/>
+                <UserAttribute description="MeasurementUnit:deg" name="BrightnessBGColorHue_MEDIAN" type="xsd:string" value="19.764705882352942"/>
+                <UserAttribute name="NumberVerticalLines" type="xsd:string" value="0"/>
+                <UserAttribute description="MeasurementUnit:deg" name="SaturationFGColorHue_SKEWNESS" type="xsd:string" value="0.9982683969692534"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeVPOS" type="xsd:string" value="88.04086"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorBrightness_MEAN" type="xsd:string" value="4.313725490196078"/>
+                <UserAttribute name="NumberHorizontalLines" type="xsd:string" value="0"/>
+                <UserAttribute description="MeasurementUnit:deg" name="BrightnessBGColorHue_SKEWNESS" type="xsd:string" value="0.0"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorBrightness_MEAN" type="xsd:string" value="2.156862745098039"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorSaturation_MEAN" type="xsd:string" value="81.56862745098039"/>
+                <UserAttribute description="MeasurementUnit:deg" name="SaturationBGColorHue_MEAN" type="xsd:string" value="19.764705882352942"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorBrightness_SKEWNESS" type="xsd:string" value="-0.09375025369785335"/>
+                <UserAttribute description="MeasurementUnit:deg" name="SaturationFGColorHue_MEDIAN" type="xsd:string" value="14.117647058823529"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorSaturation_SKEWNESS" type="xsd:string" value="0.0"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorBrightness_STD_DEV" type="xsd:string" value="0.9869064621268954"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorBrightness_SKEWNESS" type="xsd:string" value="0.0"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorSaturation_SKEWNESS" type="xsd:string" value="-0.27729677693487587"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorBrightness_STD_DEV" type="xsd:string" value="0.554593553871802"/>
+                <UserAttribute description="MeasurementUnit:deg" name="BrightnessBGColorHue_STD_DEV" type="xsd:string" value="3.9930735878769745"/>
+                <UserAttribute description="MeasurementUnit:deg" name="SaturationFGColorHue_MEAN" type="xsd:string" value="15.058823529411764"/>
+                <UserAttribute description="MeasurementUnit:sq.cm" name="Area" type="xsd:string" value="0.007168445"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorSaturation_MEDIAN" type="xsd:string" value="81.56862745098039"/>
+                <UserAttribute description="MeasurementUnit:cm" name="VPOS" type="xsd:string" value="37.211"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorBrightness_MEDIAN" type="xsd:string" value="4.313725490196078"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorSaturation_MEAN" type="xsd:string" value="96.20915032679738"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorBrightness_MEDIAN" type="xsd:string" value="2.7450980392156863"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorSaturation_MEDIAN" type="xsd:string" value="100.0"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorBrightness_MEAN" type="xsd:string" value="3.9215686274509802"/>
+                <UserAttribute description="MeasurementUnit:cm" name="HPOS" type="xsd:string" value="23.960667"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorSaturation_STD_DEV" type="xsd:string" value="4.991341984846217"/>
+                <UserAttribute description="MeasurementUnit:deg" name="SaturationBGColorHue_SKEWNESS" type="xsd:string" value="NaN"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorSaturation_STD_DEV" type="xsd:string" value="0.0"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeHPOS" type="xsd:string" value="85.03606"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeHeight" type="xsd:string" value="0.10016026"/>
+                <UserAttribute description="MeasurementUnit:cm" name="Height" type="xsd:string" value="0.042333335"/>
+                <UserAttribute description="MeasurementUnit:cm" name="Width" type="xsd:string" value="0.16933334"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorSaturation_MEAN" type="xsd:string" value="85.09803921568627"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorBrightness_STD_DEV" type="xsd:string" value="0.8318903308077028"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorSaturation_SKEWNESS" type="xsd:string" value="NaN"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationFGColorBrightness_MEAN" type="xsd:string" value="2.6143790849673203"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorBrightness_SKEWNESS" type="xsd:string" value="0.0"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorSaturation_MEAN" type="xsd:string" value="100.0"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessFGColorSaturation_SKEWNESS" type="xsd:string" value="NaN"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorBrightness_MEDIAN" type="xsd:string" value="4.313725490196078"/>
+                <UserAttribute description="MeasurementUnit:pct" name="BrightnessBGColorSaturation_MEDIAN" type="xsd:string" value="88.62745098039215"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorBrightness_SKEWNESS" type="xsd:string" value="NaN"/>
+                <UserAttribute description="MeasurementUnit:pct" name="SaturationBGColorBrightness_STD_DEV" type="xsd:string" value="0.0"/>
+                <UserAttribute description="MeasurementUnit:deg" name="BrightnessFGColorHue_SKEWNESS" type="xsd:string" value="0.0"/>
+                <UserAttribute description="MeasurementUnit:deg" name="SaturationBGColorHue_STD_DEV" type="xsd:string" value="0.0"/>
+                <UserAttribute description="MeasurementUnit:deg" name="BrightnessFGColorHue_STD_DEV" type="xsd:string" value="1.9965367939384873"/>
+            </UserDefined>
+        </UnknownRegion>
+    </Page>
+</PcGts>

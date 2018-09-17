@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>SWATI Workflow-Version 1.4</Creator>
+        <Created>2018-02-06T10:20:38Z</Created>
+        <LastChange>2018-02-06T10:20:38Z</LastChange>
+        <Comments>PageXml created according to 2017 schema</Comments>
+    </Metadata>
+    <Page custom="MeasurementUnit:Pixel" imageFilename="037v.tif" imageHeight="3507" imageWidth="2480">
+        <Border>
+            <Coords points="2480,105 2480,3360 140,3360 140,105"/>
+        </Border>
+        <UserDefined>
+            <UserAttribute description="MeasurementUnit:cm" name="pageModelWidth" type="xsd:float" value="19.305"/>
+            <UserAttribute description="MeasurementUnit:cm" name="pageModelHeight" type="xsd:float" value="27.22"/>
+            <UserAttribute description="MeasurementUnit:DPI" name="xResolution" type="xsd:float" value="300.0"/>
+            <UserAttribute description="MeasurementUnit:DPI" name="yResolution" type="xsd:float" value="300.0"/>
+            <UserAttribute description="MeasurementUnit:cm" name="DigitizedManuscriptPageHeight" type="xsd:string" value="29.692598"/>
+            <UserAttribute name="TextRightMargin_RATIO" type="xsd:string" value="146.39154"/>
+            <UserAttribute description="MeasurementUnit:cm" name="DigitizedManuscriptPageWidth" type="xsd:string" value="20.997332"/>
+            <UserAttribute name="NumberPageRegion" type="xsd:string" value="1"/>
+            <UserAttribute name="TextMargin_RATIO" type="xsd:string" value="1.6710035"/>
+            <UserAttribute name="ColorCalibration" type="xsd:string" value="false"/>
+            <UserAttribute name="TextLeftMargin_RATIO" type="xsd:string" value="3.1482253"/>
+            <UserAttribute name="NumberTextRegion" type="xsd:string" value="5"/>
+            <UserAttribute name="NumberHorizontalLines" type="xsd:string" value="34"/>
+            <UserAttribute description="MeasurementUnit:cm" name="MeanDistanceHorizontalLines" type="xsd:string" value="0.5827059149742126"/>
+            <UserAttribute description="MeasurementUnit:cm" name="HPOS" type="xsd:string" value="1.1853334"/>
+            <UserAttribute description="MeasurementUnit:sq.cm" name="Area" type="xsd:string" value="545.9989"/>
+            <UserAttribute description="MeasurementUnit:pct" name="RelativeWidth" type="xsd:string" value="94.35485"/>
+            <UserAttribute description="MeasurementUnit:cm" name="VPOS" type="xsd:string" value="0.889"/>
+            <UserAttribute description="MeasurementUnit:pct" name="RelativeHPOS" type="xsd:string" value="5.6451616"/>
+            <UserAttribute description="MeasurementUnit:cm" name="MeanDistanceVerticalLines" type="xsd:string" value="9.906000137329102"/>
+            <UserAttribute description="MeasurementUnit:pct" name="RelativeHeight" type="xsd:string" value="92.81438"/>
+            <UserAttribute description="MeasurementUnit:cm" name="Height" type="xsd:string" value="27.559"/>
+            <UserAttribute name="NumberVerticalLines" type="xsd:string" value="2"/>
+            <UserAttribute description="MeasurementUnit:cm" name="Width" type="xsd:string" value="19.812"/>
+            <UserAttribute description="MeasurementUnit:pct" name="RelativeVPOS" type="xsd:string" value="2.994012"/>
+        </UserDefined>
+        <TextRegion id="r1">
+            <Coords points="1305,105 1305,235 1140,235 1140,105"/>
+            <UserDefined>
+                <UserAttribute name="NumberHorizontalLines" type="xsd:string" value="0"/>
+                <UserAttribute description="MeasurementUnit:cm" name="HPOS" type="xsd:string" value="9.651999"/>
+                <UserAttribute description="MeasurementUnit:sq.cm" name="Area" type="xsd:string" value="1.5376313"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeWidth" type="xsd:string" value="6.6532264"/>
+                <UserAttribute description="MeasurementUnit:cm" name="VPOS" type="xsd:string" value="0.889"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeHPOS" type="xsd:string" value="45.967743"/>
+                <UserAttribute description="MeasurementUnit:cm" name="MeanDistanceVerticalLines" type="xsd:string" value="1.3969999551773071"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeHeight" type="xsd:string" value="3.706872"/>
+                <UserAttribute description="MeasurementUnit:cm" name="Height" type="xsd:string" value="1.1006666"/>
+                <UserAttribute name="NumberFeatureStackArray" type="xsd:string" value="134"/>
+                <UserAttribute name="NumberVerticalLines" type="xsd:string" value="1"/>
+                <UserAttribute description="MeasurementUnit:cm" name="Width" type="xsd:string" value="1.397"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeVPOS" type="xsd:string" value="2.994012"/>
+            </UserDefined>
+            <TextEquiv>
+                <Unicode/>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r2">
+            <Coords points="2250,525 2250,2660 875,2660 875,525"/>
+            <UserDefined>
+                <UserAttribute name="NumberHorizontalLines" type="xsd:string" value="23"/>
+                <UserAttribute description="MeasurementUnit:cm" name="MeanDistanceHorizontalLines" type="xsd:string" value="0.5061594247817993"/>
+                <UserAttribute description="MeasurementUnit:cm" name="HPOS" type="xsd:string" value="7.4083333"/>
+                <UserAttribute description="MeasurementUnit:sq.cm" name="Area" type="xsd:string" value="210.43867"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeWidth" type="xsd:string" value="55.443554"/>
+                <UserAttribute description="MeasurementUnit:cm" name="VPOS" type="xsd:string" value="4.4449997"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeHPOS" type="xsd:string" value="35.28226"/>
+                <UserAttribute description="MeasurementUnit:cm" name="MeanDistanceVerticalLines" type="xsd:string" value="5.820833683013916"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeHeight" type="xsd:string" value="60.878246"/>
+                <UserAttribute description="MeasurementUnit:cm" name="Height" type="xsd:string" value="18.076334"/>
+                <UserAttribute name="NumberFeatureStackArray" type="xsd:string" value="134"/>
+                <UserAttribute name="NumberVerticalLines" type="xsd:string" value="2"/>
+                <UserAttribute description="MeasurementUnit:cm" name="Width" type="xsd:string" value="11.641667"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeVPOS" type="xsd:string" value="14.970059"/>
+            </UserDefined>
+            <TextEquiv>
+                <Unicode/>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r3">
+            <Coords points="855,880 855,1025 605,1025 605,880"/>
+            <UserDefined>
+                <UserAttribute name="NumberHorizontalLines" type="xsd:string" value="3"/>
+                <UserAttribute description="MeasurementUnit:cm" name="MeanDistanceHorizontalLines" type="xsd:string" value="0.7055554986000061"/>
+                <UserAttribute description="MeasurementUnit:cm" name="HPOS" type="xsd:string" value="5.122333"/>
+                <UserAttribute description="MeasurementUnit:sq.cm" name="Area" type="xsd:string" value="2.5985608"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeWidth" type="xsd:string" value="10.080646"/>
+                <UserAttribute description="MeasurementUnit:cm" name="VPOS" type="xsd:string" value="7.450667"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeHPOS" type="xsd:string" value="24.395163"/>
+                <UserAttribute description="MeasurementUnit:cm" name="MeanDistanceVerticalLines" type="xsd:string" value="1.0583332777023315"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeHeight" type="xsd:string" value="4.134588"/>
+                <UserAttribute description="MeasurementUnit:cm" name="Height" type="xsd:string" value="1.2276666"/>
+                <UserAttribute name="NumberFeatureStackArray" type="xsd:string" value="134"/>
+                <UserAttribute name="NumberVerticalLines" type="xsd:string" value="2"/>
+                <UserAttribute description="MeasurementUnit:cm" name="Width" type="xsd:string" value="2.1166666"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeVPOS" type="xsd:string" value="25.092674"/>
+            </UserDefined>
+            <TextEquiv>
+                <Unicode/>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r4">
+            <Coords points="2470,1675 2470,1795 2360,1795 2360,1675"/>
+            <UserDefined>
+                <UserAttribute name="NumberHorizontalLines" type="xsd:string" value="3"/>
+                <UserAttribute description="MeasurementUnit:cm" name="MeanDistanceHorizontalLines" type="xsd:string" value="0.3104444444179535"/>
+                <UserAttribute description="MeasurementUnit:cm" name="HPOS" type="xsd:string" value="19.981333"/>
+                <UserAttribute description="MeasurementUnit:sq.cm" name="Area" type="xsd:string" value="0.9462347"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeWidth" type="xsd:string" value="4.4354844"/>
+                <UserAttribute description="MeasurementUnit:cm" name="VPOS" type="xsd:string" value="14.181667"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeHPOS" type="xsd:string" value="95.16129"/>
+                <UserAttribute description="MeasurementUnit:cm" name="MeanDistanceVerticalLines" type="xsd:string" value="0.9313333630561829"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeHeight" type="xsd:string" value="3.4217284"/>
+                <UserAttribute description="MeasurementUnit:cm" name="Height" type="xsd:string" value="1.016"/>
+                <UserAttribute name="NumberFeatureStackArray" type="xsd:string" value="134"/>
+                <UserAttribute name="NumberVerticalLines" type="xsd:string" value="1"/>
+                <UserAttribute description="MeasurementUnit:cm" name="Width" type="xsd:string" value="0.93133336"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeVPOS" type="xsd:string" value="47.761623"/>
+            </UserDefined>
+            <TextEquiv>
+                <Unicode/>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r5">
+            <Coords points="910,1835 910,1990 670,1990 670,1835"/>
+            <UserDefined>
+                <UserAttribute name="NumberHorizontalLines" type="xsd:string" value="1"/>
+                <UserAttribute description="MeasurementUnit:cm" name="MeanDistanceHorizontalLines" type="xsd:string" value="2.0320000648498535"/>
+                <UserAttribute description="MeasurementUnit:cm" name="HPOS" type="xsd:string" value="5.6726665"/>
+                <UserAttribute description="MeasurementUnit:sq.cm" name="Area" type="xsd:string" value="2.6666613"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeWidth" type="xsd:string" value="9.677421"/>
+                <UserAttribute description="MeasurementUnit:cm" name="VPOS" type="xsd:string" value="15.536333"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeHPOS" type="xsd:string" value="27.01613"/>
+                <UserAttribute description="MeasurementUnit:cm" name="MeanDistanceVerticalLines" type="xsd:string" value="2.0320000648498535"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeHeight" type="xsd:string" value="4.4197316"/>
+                <UserAttribute description="MeasurementUnit:cm" name="Height" type="xsd:string" value="1.3123332"/>
+                <UserAttribute name="NumberFeatureStackArray" type="xsd:string" value="134"/>
+                <UserAttribute name="NumberVerticalLines" type="xsd:string" value="1"/>
+                <UserAttribute description="MeasurementUnit:cm" name="Width" type="xsd:string" value="2.032"/>
+                <UserAttribute description="MeasurementUnit:pct" name="RelativeVPOS" type="xsd:string" value="52.323925"/>
+            </UserDefined>
+            <TextEquiv>
+                <Unicode/>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

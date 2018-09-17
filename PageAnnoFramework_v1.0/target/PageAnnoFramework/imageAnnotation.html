@@ -1,0 +1,242 @@
+<style>
+.btn-file {
+	position: relative;
+	overflow: hidden;
+}
+
+.btn-file input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 100px;
+	text-align: right;
+	filter: alpha(opacity = 0);
+	opacity: 0;
+	outline: none;
+	background: white;
+	cursor: inherit;
+	display: block;
+}
+
+#img-upload {
+	width: 100%;
+}
+</style>
+<div class="row">
+	<div class="col-xs-11 col-sm-11 col-md-11 col-lg-11 headerText">
+		Image Annotations</div>
+	<div class="col-md-6">
+		<div class="form-group">
+			<label>Upload Image</label>
+			<div class="input-group">
+				<span class="input-group-btn"> <span
+					class="btn btn-default btn-file"> Browse… <input type="file"
+						id="imgInp">
+				</span>
+				</span> <input type="text" class="form-control" readonly>
+			</div>
+			
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-11 col-sm-11 col-md-11 col-lg-11"
+		style="border-right: 1px solid black;">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 subHeadings">
+				Image Annotation Sections</div>
+				
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 content">
+			<!-- <section class="inner"> -->
+				<img id='img-upload' />
+				<!-- </section> -->
+				</div>
+		</div>
+	</div>
+	<div class="col-xs-11 col-sm-1 col-md-1 col-lg-1">
+	<!-- <div class="in-page-controls"></div> -->
+	</div>
+	<!-- <div class="col-xs-11 col-sm-4 col-md-4 col-lg-4">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 subHeadings2">
+				Annotated Image Details</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">all
+				previous annotation goes here
+				<br>
+				<div class="in-page-controls"></div> control container
+				
+				</div>
+		</div>
+	</div> -->
+</div>
+<script>
+	$(document).ready(
+			function() {
+				$(document).on(
+						'change',
+						'.btn-file :file',
+						function() {
+							var input = $(this), label = input.val().replace(
+									/\\/g, '/').replace(/.*\//, '');
+							input.trigger('fileselect', [ label ]);
+						});
+
+				$('.btn-file :file').on(
+						'fileselect',
+						function(event, label) {
+
+							var input = $(this).parents('.input-group').find(
+									':text'), log = label;
+
+							if (input.length) {
+								input.val(log);
+							} else {
+								if (log)
+									alert(log);
+							}
+
+						});
+				function readURL(input) {
+					if (input.files && input.files[0]) {
+						var reader = new FileReader();
+
+						reader.onload = function(e) {
+							$('#img-upload').attr('src', e.target.result);
+						}
+
+						reader.readAsDataURL(input.files[0]);
+					}
+				}
+
+				$("#imgInp").change(function() {
+					readURL(this);
+				});
+			});
+</script>
+
+ <script type="text/javascript">
+/*  var content = $('#content').annotator();
+ content.annotator('addPlugin', 'Store', {
+   // The endpoint of the store on your server.
+   prefix: 'http://localhost:8080/AnnotationWADM_v1.0/rest/test',
+
+   // Attach the uri of the current page to all annotations to allow search.
+   annotationData: {
+     'uri': 'http://localhost:8080/AnnotationWADM_v1.0/rest/test'
+   },
+
+ }) */;
+ 
+      $( document ).ready()
+        if (typeof annotator === 'undefined') {
+          alert("Oops! Something went wrong and Annotator isn't loaded.");
+      } else {
+    	/*var _marginalia = annotatorMarginalia();*/
+        var app = new annotator.App();
+        app.include(annotator.ui.main,{
+              element: document.querySelector('.content .inner'),
+            })
+            .include(annotatorImageSelect, {
+              element: $('.content img'),
+           })
+           .include(annotator.storage.http)
+           .include(annotator.storage.debug)
+            .include(customPlugin);/*.include(annotatorMarginalia, {
+               show_update_date: true,
+               show_author: true
+             }); */
+          app.start();
+       // simulate empty data load since demo has no annotation store
+         // _marginalia.annotationsLoaded([]);
+          console.log("Status:"+app);
+      };
+      function customPlugin(){
+    	  return {
+    	        annotationCreated: function (annotation) {
+    	            //console.log(annotation);
+    	            /* var output = '';
+    	            for (var property in object) {
+    	              output += property + ': ' + object[property]+'; ';
+    	            }
+    	            console.log(output); */
+    	            console.log("-----created------");
+    	            var myJSON = JSON.stringify(annotation);
+    	            alert(myJSON);
+    	            console.log(myJSON);
+    	        },
+    	  annotationUpdated: function (annotation){
+    		  console.log("Updaed"+annotation);
+    		  var myJSON = JSON.stringify(annotation);
+	            alert(myJSON);
+	            console.log(myJSON);
+    	  }
+    	    };
+    	  
+      }
+      
+      //annotationUpdated
+      /*
+    //  code for auto complete feture further can be used for vocab validations from url https://github.com/openannotation/annotator/issues/92#issuecomment-3985124
+      
+      jQuery(function ($) {
+  $('#elementToAnnotate').annotator().annotator('addPlugin', 'Tags');
+
+  var availableTags = [
+    "Tag1",
+    "OtherTag",
+    "Tag2",
+  ];
+
+  $('#elementToAnnotate').data('annotator').plugins.Tags.input.autocomplete({
+    source: availableTags
+  });
+
+});
+      */
+    </script>
+    <script>
+     /*  if (typeof annotator === 'undefined') {
+        alert("Oops! it looks like you haven't built Annotator. " +
+              "Either download a tagged release from GitHub, or build the " +
+              "package by running `make`");
+      } else {
+
+    function generate_id() {
+      return Math.floor((1 + Math.random()) * 0x10000)
+        .toString(16)
+        .substring(1);
+    }
+        // set fake date, id, and author in order to demonstrate footer,
+        // since demo operates without an annotate store
+        var fakeData = function () {
+          return {
+            beforeAnnotationCreated: function (ann) {
+              ann.updated = new Date();
+              ann.user = 'anon';
+              ann.id = generate_id();
+            }
+          };
+        };
+
+        var _marginalia = annotatorMarginalia();
+        var app = new annotator.App()
+          .include(annotator.ui.main)
+          .include(fakeData)
+          .include(annotatorMarginalia, {
+            show_update_date: true,
+            show_author: true
+          });
+
+        app.start();
+
+        // simulate empty data load since demo has no annotation store
+        _marginalia.annotationsLoaded([]);
+
+      } */
+    </script>
